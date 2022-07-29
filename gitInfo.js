@@ -11,7 +11,7 @@
 
 //CODE HERE
 
-const gitDefinition = "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. In Laman's terms, it's a library that contains a software developer's portfolio to reference later & back up his/her work to."
+const gitDefinition = "In Laman's terms, it's a library that contains a software developer's portfolio to reference later & back up his/her work to."
 
 
 //////////////////PROBLEM 2////////////////////
@@ -21,7 +21,7 @@ const gitDefinition = "Git is a free and open source distributed version control
 */
 
 //CODE HERE
-const gitHubDefinition = "GitHub, Inc. is a provider of Internet hosting for software development and version control using Git. It offers the distributed version control and source code management (SCM) functionality of Git, plus its own features. It provides access control and several collaboration features such as bug tracking, feature requests, task management, continuous integration, and wikis for every project. Headquartered in California, it has been a subsidiary of Microsoft since 2018."
+const gitHubDefinition = "GitHub is an online git library for developers to collaborate and back up their work to on a cloud server, incase their computer fries or a tsunami wrecks their city..."
 
 
 //////////////////PROBLEM 3////////////////////
@@ -31,7 +31,7 @@ const gitHubDefinition = "GitHub, Inc. is a provider of Internet hosting for sof
 */
 
 //CODE HERE
-const gitInitDefinition = "The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository. Most other Git commands are not available outside of an initialized repository, so this is usually the first command you'll run in a new project."
+const gitInitDefinition = "The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository"
 
 
 //////////////////PROBLEM 4////////////////////
@@ -41,7 +41,7 @@ const gitInitDefinition = "The git init command creates a new Git repository. It
 */
 
 //CODE HERE
-const gitCloneDefinition = "Git receives a full copy of nearly all data that the server has. Every version of every file for the history of the project is pulled down by default when you run git clone. In fact, if your server disk gets corrupted, you can often use nearly any of the clones on any client to set the server back to the state it was in when it was cloned (you may lose some server-side hooks and such, but all the versioned data would be there"
+const gitCloneDefinition = "Duplicates all data that a git library/project has, creates a new backup for you to reference & push"
 
 
 //////////////////PROBLEM 5////////////////////
@@ -51,7 +51,7 @@ const gitCloneDefinition = "Git receives a full copy of nearly all data that the
 */
 
 //CODE HERE
-const gitStatusDefinition = "The git status command displays the state of the working directory and the staging area. It lets you see which changes have been staged, which haven't, and which files aren't being tracked by Git."
+const gitStatusDefinition = "Allows you to check which files and directories are being tracked in the staging area for when you make a new commit & push it to github"
 
 
 //////////////////PROBLEM 6////////////////////
@@ -64,7 +64,7 @@ const gitStatusDefinition = "The git status command displays the state of the wo
 */
 
 //CODE HERE
-const gitAddDefinition = "The git add command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit. However, git add doesn't really affect the repository in any significant way"
+const gitAddDefinition = "This allows you to choose which files and directories are being tracked in the staging area for when you make a new commit"
 
 const gitAddCode = "git add ."
 
@@ -89,4 +89,4 @@ const gitCommitCode = `git commit -m "Initial commit" `
 
 //CODE HERE
 
-const gitPushDefinition = "The git push command is used to upload local repository content to a remote repository. Pushing is how you transfer commits from your local repository to a remote repo."
+const gitPushDefinition = "The git push command is used to upload local repository content to a remote repository such as GitHub. Pushing is how you transfer commits from your local repository to a remote/cloud repo."
